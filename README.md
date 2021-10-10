@@ -1,12 +1,21 @@
 # ImgVideoProcessing.PY
 
+## Overview:
+
 Learning Python - Image and Video processing.
 
 Original source code and documents from https://www.udemy.com/course/the-python-mega-course.
 
+1. Image processing
+2. Batch resize image
+3. Face detecting in image
+4. Video capturing with webcam and Face detecting in video
+5. Motion detecting
+6. Show motion detecting result with Bokeh
 
 
-# Install OpenCV library on Windows 10
+
+## Install OpenCV library on Windows 10
 
 Please execute one of the commands below to do the installation depending on what version of Python you are using:
 
@@ -28,7 +37,7 @@ pip3.8 install opencv-python
 
 
 
-## Check if opencv works
+### Check if opencv works
 
 Open a Python session and try:
 
@@ -38,7 +47,7 @@ import cv2
 
 If you get no errors, that means you installed OpenCV successfully. If you get an error, please see the FAQs below:
 
-**FAQs**
+## **FAQs**
 
 **1. My OpenCV installation didn't go well on Windows**
 
@@ -134,3 +143,5 @@ pip install opencv-python
 
 - https://pythonprogramming.net/haar-cascade-object-detection-python-opencv-tutorial/
 - https://dikshit18.medium.com/training-your-own-cascade-classifier-detector-opencv-9ea6055242c2
+- https://docs.opencv.org/3.4.15/d7/d1b/group__imgproc__misc.html
+
