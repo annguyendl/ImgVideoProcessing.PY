@@ -48,6 +48,7 @@ while True:
     
     #If status changed then add timestamp to MotionDetectingResults
     status_list.append(status)
+    status_list = status_list[-2:]
     if status_list[-1]==0 and status_list[-2]==1:
         times.append(datetime.now())
     if status_list[-1]==1 and (status_list[-2]==0 or status_list[-2] is None):
